@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-import Car from './components/Car';
+// import Car from './components/Car';
 import reportWebVitals from './reportWebVitals';
+import Garage from './components/Grage';
+import Apple from './components/Apple';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Car />
+    <Garage />
+    <Apple />
   </React.StrictMode>
 );
 
