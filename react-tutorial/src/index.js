@@ -6,12 +6,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Garage from './components/Grage';
 import Apple from './components/Apple';
+import Car from './components/Car';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Garage />
     <Apple />
+    <Car />
   </React.StrictMode>
 );
 
