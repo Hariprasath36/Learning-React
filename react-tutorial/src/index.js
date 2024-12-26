@@ -7,7 +7,8 @@ import reportWebVitals from './reportWebVitals';
 // import Garage from './components/Grage';
 // import Apple from './components/Apple';
 // import Car from './components/Car';
-import Header from './components/Header';
+// import Header from './components/Header';
+import ChangeColour from './components/ChangeColour';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,9 @@ root.render(
     {/* <Garage />
     <Apple />
     <Car /> */}
-    <Header />
+    {/* <Header />
+     */}
+     <ChangeColour />
   </React.StrictMode>
 );
 
