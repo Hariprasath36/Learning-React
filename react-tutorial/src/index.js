@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Garage from './components/Grage';
 import Apple from './components/Apple';
 import Car from './components/Car';
+import Header from './components/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Garage />
     <Apple />
     <Car />
+    <Header />
   </React.StrictMode>
 );
 
