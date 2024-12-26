@@ -4,17 +4,17 @@ import './index.css';
 // import App from './App';
 // import Car from './components/Car';
 import reportWebVitals from './reportWebVitals';
-import Garage from './components/Grage';
-import Apple from './components/Apple';
-import Car from './components/Car';
+// import Garage from './components/Grage';
+// import Apple from './components/Apple';
+// import Car from './components/Car';
 import Header from './components/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Garage />
+    {/* <Garage />
     <Apple />
-    <Car />
+    <Car /> */}
     <Header />
   </React.StrictMode>
 );
