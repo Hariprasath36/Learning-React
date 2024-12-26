@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 // import Car from './components/Car';
 // import Header from './components/Header';
 import ChangeColour from './components/ChangeColour';
+import Scooter from './components/Scooter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
     {/* <Header />
      */}
      <ChangeColour />
+     <Scooter />
   </React.StrictMode>
 );
 

@@ -7,6 +7,6 @@ function ChangeColour() {
     <button onClick={() => {setColor("blue")}}>Change Color</button>
     </>
  
-}
+} 
 
 export default ChangeColour
