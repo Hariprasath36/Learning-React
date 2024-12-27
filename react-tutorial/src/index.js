@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 // import Header from './components/Header';
 import ChangeColour from './components/ChangeColour';
 import Scooter from './components/Scooter';
+import Timer from './components/Timer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,8 +20,9 @@ root.render(
     <Car /> */}
     {/* <Header />
      */}
-     <ChangeColour />
-     <Scooter />
+     {/* <ChangeColour /> */}
+     {/* <Scooter /> */}
+     <Timer />
   </>
 );
 
