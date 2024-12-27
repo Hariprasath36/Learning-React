@@ -2,8 +2,14 @@ import { useEffect,useState } from "react";
 
 function Timer() {
     useEffect(() => {
-        console.log("Screen Rendering");
-    }, []);
+        console.log("Screen Rendering")
+
+        setTimeout(() => {
+            setCount((previousState) => {return previousState + 1})
+        }, 1000)
+
+        
+    })
 
     const [count,setCount] = useState(0);
 
