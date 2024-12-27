@@ -6,7 +6,7 @@ function Timer() {
 
         setTimeout(() => {
             setCount((previousState) => {return previousState + 1})
-        }, 1000)
+        }, 9000)
 
         
     })
