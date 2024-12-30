@@ -8,9 +8,10 @@ import reportWebVitals from './reportWebVitals';
 // import Apple from './components/Apple';
 // import Car from './components/Car';
 // import Header from './components/Header';
-import ChangeColour from './components/ChangeColour';
-import Scooter from './components/Scooter';
-import Timer from './components/Timer';
+// import ChangeColour from './components/ChangeColour';
+// import Scooter from './components/Scooter';
+// import Timer from './components/Timer';
+import Myform from './components/Myform';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +23,8 @@ root.render(
      */}
      {/* <ChangeColour /> */}
      {/* <Scooter /> */}
-     <Timer />
+     {/* <Timer /> */}
+     <Myform />
   </>
 );
 
