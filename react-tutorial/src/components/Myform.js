@@ -12,14 +12,25 @@ function handleSubmit(e) {
     console.log('Current State',input);
     
 }
+
+function handleChange(e) {
+    const name = e.target.name;
+    const value = e.target.value;
+    setInput((previousState) => {
+        return {
+            ...previousState,
+            [name]: value}
+    })
+}
     return (
         <form onSubmit={handleSubmit}>
-            <label>First Name : <input type="text" placeholder="First Name" onChange={(e)=>{setInput((previousState) => {return {...previousState,firstName:e.target.value}})}} /></label><br/>
-            <label>Age : <input type="text" placeholder="age" onChange={(e)=>{setInput((previousState) => {return {...previousState,age:e.target.value}})}} /></label><br/>
-            <label>Email : <input type="text" placeholder="email" onChange={(e)=>{setInput((previousState) => {return {...previousState,email:e.target.value}})}} /></label>
+            <label>First Name : <input type="text" name="firstName" placeholder="First Name" onChange={handleChange} /></label><br/>
+            <label>Age : <input type="text" name='age' placeholder="age" onChange={handleChange} /></label><br/>
+            <label>Number : <input type="text" name='num' placeholder="number" onChange={handleChange} /></label><br/>
+            <label>Email : <input type="text"  name='email' placeholder="email" onChange={handleChange} /></label>
             <input type="submit" value="Submit" />
         </form>
     )
 }
 
-export default Myform
+export default Myform;
