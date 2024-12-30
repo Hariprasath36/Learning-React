@@ -4,7 +4,7 @@ function Myform() {
     // const[age,setAge]=useState("");
     // const[email,setEmail]=useState("");
     // console.log('Current State',name);
-    const[input,setInput]=useState({});
+    const[input,setInput]=useState({num:'+91'});
 
 function handleSubmit(e) {
     e.preventDefault();
@@ -26,7 +26,7 @@ function handleChange(e) {
         <form onSubmit={handleSubmit}>
             <label>First Name : <input type="text" name="firstName" placeholder="First Name" onChange={handleChange} /></label><br/>
             <label>Age : <input type="text" name='age' placeholder="age" onChange={handleChange} /></label><br/>
-            <label>Number : <input type="text" name='num' placeholder="number" onChange={handleChange} /></label><br/>
+            <label>Number : <input type="text" name='num' placeholder="number" onChange={handleChange} value={input.num} /></label><br/>
             <label>Email : <input type="text"  name='email' placeholder="email" onChange={handleChange} /></label>
             <input type="submit" value="Submit" />
         </form>
