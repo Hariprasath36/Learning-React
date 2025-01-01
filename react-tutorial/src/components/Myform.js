@@ -18,7 +18,7 @@ function handleChange(e) {
     const value = e.target.value;
     setInput((previousState) => {
         return {
-            
+            ...previousState,
             [name]: value}
     })
 }
