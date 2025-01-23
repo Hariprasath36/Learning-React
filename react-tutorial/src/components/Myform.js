@@ -46,5 +46,3 @@ function handleChange(e) {
 }
 
 export default Myform;
-
-hdsag
