@@ -46,4 +46,3 @@ function handleChange(e) {
 }
 
 export default Myform;
-skjf
